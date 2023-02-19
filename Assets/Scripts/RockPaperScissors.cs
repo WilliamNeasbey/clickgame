@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class RockPaperScissors : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class RockPaperScissors : MonoBehaviour
 
     private int playerChoice;
     private int computerChoice;
+
+    public TextMeshProUGUI P1Wins;
+    public static int Player1Wins;
 
     void Start()
     {
