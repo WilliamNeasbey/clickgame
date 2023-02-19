@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class RockPaperScissors : MonoBehaviour
 {
@@ -10,11 +11,17 @@ public class RockPaperScissors : MonoBehaviour
     private int computerChoice;
 
     public TextMeshProUGUI P1Wins;
-    public static int Player1Wins;
+    public int Player1Wins;
+
+    public TextMeshProUGUI P2Wins;
+    public int Player2Wins;
 
     void Start()
     {
         resultText.text = "Choose Rock, Paper, or Scissors";
+        //P1Wins = GetComponent<TextMeshProUGUI>();
+        Player1Wins = 0;
+        Player2Wins = 0;
     }
 
     public void ChooseRock()
@@ -50,12 +57,28 @@ public class RockPaperScissors : MonoBehaviour
                  (playerChoice == 2 && computerChoice == 1))
         {
             result = "You win!";
+            P1Wins.text = Player1Wins.ToString();
+            Player1Wins++;
         }
         else
         {
             result = "Computer wins!";
+            P2Wins.text = Player2Wins.ToString();
+            Player2Wins++;
         }
 
         resultText.text = "You chose " + choices[playerChoice] + ", computer chose " + choices[computerChoice] + ". " + result;
+    }
+
+    private void Update()
+    {
+        if (Player1Wins >= 5)
+        {
+            SceneManager.LoadScene("RockPaperScissorsTest");
+        }
+        if (Player2Wins >= 5)
+        {
+            SceneManager.LoadScene("RockPaperScissorsTest");
+        }
     }
 }
