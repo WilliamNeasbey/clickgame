@@ -62,12 +62,12 @@ public class RockPaperScissors : MonoBehaviour
         }
         else
         {
-            result = "Computer wins!";
+            result = "Kendrick Lamar wins!";
             P2Wins.text = Player2Wins.ToString();
             Player2Wins++;
         }
 
-        resultText.text = "You chose " + choices[playerChoice] + ", computer chose " + choices[computerChoice] + ". " + result;
+        resultText.text = "You chose " + choices[playerChoice] + ", Kendrick Lamar chose " + choices[computerChoice] + ". " + result;
     }
 
     private void Update()

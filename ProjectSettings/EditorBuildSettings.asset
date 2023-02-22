@@ -6,9 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/RPSKendrick.unity
-    guid: a93d5303857a7a543ae44288d61c5a88
+    path: Assets/Scenes/MainMenu.unity
+    guid: f691d8dde91b7e641916c246fe30db30
   - enabled: 1
     path: Assets/Scenes/RockPaperScissorsTest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RPSKendrick.unity
+    guid: a93d5303857a7a543ae44288d61c5a88
+  - enabled: 1
+    path: Assets/Scenes/MainHub.unity
+    guid: 5322c0a5a7f670c45b645b566b96db8f
+  - enabled: 1
+    path: Assets/Scenes/RPSProphet.unity
+    guid: ce8ac944e84374c44a0670f794a6c3e8
+  - enabled: 1
+    path: Assets/Scenes/DefendChunLi.unity
+    guid: 878d9c4c1f031874ea72e9a6c8122abe
+  - enabled: 1
+    path: Assets/Scenes/RPSPowerRangers.unity
+    guid: 3088b70cd37a6f64eaac00c7599561d8
   m_configObjects: {}
