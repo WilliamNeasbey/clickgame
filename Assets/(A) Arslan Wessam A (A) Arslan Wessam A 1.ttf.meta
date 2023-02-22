@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a9a52e0c58d9db8489c5104742dcfe19
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - (A) Arslan Wessam A
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0f79bb3c0735afd428e6423058811f64, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
