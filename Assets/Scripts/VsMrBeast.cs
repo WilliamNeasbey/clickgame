@@ -74,11 +74,11 @@ public class VsMrBeast : MonoBehaviour
 
     private void Update()
     {
-        if (Player1Wins >= 10)
+        if (Player1Wins >= 20)
         {
             SceneManager.LoadScene("RockPaperScissorsTest");
         }
-        if (Player2Wins >= 10)
+        if (Player2Wins >= 20)
         {
             SceneManager.LoadScene("RockPaperScissorsTest");
         }
