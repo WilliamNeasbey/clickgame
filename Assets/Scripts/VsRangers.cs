@@ -76,11 +76,11 @@ public class VsRangers : MonoBehaviour
     {
         if (Player1Wins >= 10)
         {
-            SceneManager.LoadScene("RockPaperScissorsTest");
+            SceneManager.LoadScene("BeatRangers");
         }
         if (Player2Wins >= 10)
         {
-            SceneManager.LoadScene("RockPaperScissorsTest");
+            SceneManager.LoadScene("LoseScene");
         }
     }
 }

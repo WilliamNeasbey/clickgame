@@ -76,11 +76,11 @@ public class VsGoku : MonoBehaviour
     {
         if (Player1Wins >= 15)
         {
-            SceneManager.LoadScene("RockPaperScissorsTest");
+            SceneManager.LoadScene("BeatGoku");
         }
         if (Player2Wins >= 15)
         {
-            SceneManager.LoadScene("RockPaperScissorsTest");
+            SceneManager.LoadScene("LoseScene");
         }
     }
 }

@@ -76,11 +76,11 @@ public class VsMrBeast : MonoBehaviour
     {
         if (Player1Wins >= 20)
         {
-            SceneManager.LoadScene("RockPaperScissorsTest");
+            SceneManager.LoadScene("BeatMrBeast");
         }
         if (Player2Wins >= 20)
         {
-            SceneManager.LoadScene("RockPaperScissorsTest");
+            SceneManager.LoadScene("LoseScene");
         }
     }
 }

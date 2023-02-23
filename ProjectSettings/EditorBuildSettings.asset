@@ -29,4 +29,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RPSMrBeastAndSans.unity
     guid: 13b775ba45af9f040b5ea88a41400d3d
+  - enabled: 1
+    path: Assets/Scenes/BeatGoku.unity
+    guid: bf9ce7416ca4b3a49befb52e7c492a7e
+  - enabled: 1
+    path: Assets/Scenes/BeatMrBeast.unity
+    guid: 8f65ad05b9f9d1a47b7eedac3737c69f
+  - enabled: 1
+    path: Assets/Scenes/BeatKendrick.unity
+    guid: a87244f18530f704288c3f682b94b9de
+  - enabled: 1
+    path: Assets/Scenes/BeatRangers.unity
+    guid: 2da0f378d35416b42a5ab93820d5f667
+  - enabled: 1
+    path: Assets/Scenes/LoseScene.unity
+    guid: 3cc5474c6ea2a2a499a66c1e415bc3bd
+  - enabled: 1
+    path: Assets/Scenes/SpookyScene.unity
+    guid: 0061bdf2ca8155645af88400323974d1
   m_configObjects: {}

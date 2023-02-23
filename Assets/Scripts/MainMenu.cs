@@ -52,4 +52,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainHub");
     }
+
+    public void Spooky()
+    {
+        SceneManager.LoadScene("SpookyScene");
+    }
 }
