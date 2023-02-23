@@ -15,27 +15,25 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void Sector7GBombing()
-    {
-        SceneManager.LoadScene("Sector7GBombing");
-    }
-    public void ProtectTheKaaba()
-    {
-        SceneManager.LoadScene("DefendKaaba");
-    }
 
-    public void VideoTheKaaba()
+    public void VsKendrick()
     {
-        SceneManager.LoadScene("IntroVideoKaaba");
-    }
-
-    public void TitleScreen()
-    {
-        SceneManager.LoadScene("TitleScreen");
+        SceneManager.LoadScene("RPSKendrick");
     }
 
     public void VsGoku()
     {
         SceneManager.LoadScene("RPSProphet");
+    }
+
+    public void PowerRangers()
+    {
+        SceneManager.LoadScene("RPSPowerRangers");
+    }
+
+    // RPSMrBeastAndSans
+    public void TagTeam()
+    {
+        SceneManager.LoadScene("RPSMrBeastAndSans");
     }
 }
