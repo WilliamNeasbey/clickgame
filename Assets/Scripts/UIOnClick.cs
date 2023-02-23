@@ -9,5 +9,18 @@ public class UIOnClick : MonoBehaviour
     private void OnMouseDown()
     {
         uiPanel.SetActive(true);
+        DisableObjectsOnClick();
     }
+
+    //this is to try and remove other UI
+    public GameObject[] gameObjectsToDisable;
+
+    public void DisableObjectsOnClick()
+    {
+        foreach (GameObject gameObjectToDisable in gameObjectsToDisable)
+        {
+            gameObjectToDisable.SetActive(false);
+        }
+    }
+
 }

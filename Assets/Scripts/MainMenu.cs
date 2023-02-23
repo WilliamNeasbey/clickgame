@@ -36,4 +36,20 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("RPSMrBeastAndSans");
     }
+
+    //this is to try and remove other UI
+    public GameObject[] gameObjectsToDisable;
+
+    public void DisableObjectsOnClick()
+    {
+        foreach (GameObject gameObjectToDisable in gameObjectsToDisable)
+        {
+            gameObjectToDisable.SetActive(false);
+        }
+    }
+    // MainHub
+    public void MainHub()
+    {
+        SceneManager.LoadScene("MainHub");
+    }
 }
